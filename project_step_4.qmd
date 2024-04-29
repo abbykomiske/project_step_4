@@ -1,0 +1,81 @@
+---
+title: "Project step 4"
+author: Abby Komiske
+doc: pdf
+---
+
+# Project step 4: Analysis method(s)
+
+## Preparation
+
+1. Reflect on the research question and data preparation strategy you have developed.
+2. Review your research aims and objectives to identify the analytical techniques that will be necessary to address your research question.
+3. Review the differing goals and methods of analysis types ([Part IV (Chapters 8, 9, and 10)](https://qtalr.github.io/book/part_4/) and slides [Explore](https://lin-380-s24.github.io/slides/day-18.html), [Predict](https://lin-380-s24.github.io/slides/day-20.html#/), and [Infer](https://lin-380-s24.github.io/slides/day-22.html#/)).
+
+## Objectives
+
+- Apply the concepts and strategies for implementing analytical techniques to your research question and data preparation strategy. 
+- Develop an analysis plan that outlines the analytical techniques that will be necessary to address your research question.
+- Reflect on the process of identifying an analysis plan.
+
+### Brainstorming
+
+- First, consider the research question you have developed and the literature you have reviewed. What is the nature of the problem you are addressing? Is it a gap in the literature, a new methodological approach, or a new application of existing methods? Make sure that you have a clear understanding before proceeding.
+
+There is a gap in literature for linguistic features predicting judicial behavior, though linguistics have been applied to other areas of predictive models regarding the law. I seek to apply similar methodology from other legal linguistic models to answer my research question. 
+
+- Next, consider the goals of exploratory, predictive, and inferential analysis. Which of these goals align with your research question? What are the key differences between these goals that help you decide which to use?
+
+My goal is predictive because I am seeking to predict an outcome based on patterns. While I am exploring patterns, my main goal is to predict an outcome, which is an objective of predictive analysis.  
+
+
+- Finally, consider the methods of analysis within the analysis type you have selected. What are the key variables or features that you will employ in your analysis? What method(s) make sense given your research question, analysis type, and the variables you will use?
+
+The key variables would be determined by what has a relationship with the outcome. That may be legal phrases like 'stare decisis' or have to do with the length of the opinion or POS. This may indicate a statistical meaning that could be applied in creating a predictive model for judges' behavior. To test the model created based on these findings, I would need to perform regression analysis for predicting a continuous variable. 
+
+### Draft an analysis plan
+
+1. Reflect on your answers to the brainstorming questions above and develop an analysis plan that outlines the analytical techniques that will be necessary to address your research question. Your plan should outline the analysis type and methods that you will use and should address the following questions:
+
+After the data acquisition, curation, and transformation, to assess the feasibility of making a predictive model for future cases, I would need to determine if any features indicate outcomes being in favor of the petitioner or respondent. For example, the frequency of 'stare decisis' may indicate a high rate of the Justices ruling in favor of the Supreme Court of North Carolina over the petitioner. This may then also indicate a statistical meaning that could be applied in creating a predictive model for judges' behavior. Then, to test the accuracy and utility of the model created based on these findings, I would need to perform regression analysis for predicting a continuous variable, as in the outcome being the petitioner or the respondent winning the case brought before the supreme court. The predictors would be the features found from the text and metadata derived from the data set. I would then need to make a training set and testing set of data to evaluate the model's performance. I would also need the recipe for the data process. Further, not every variable may be the most relevant to predicting the outcome of a case, so I would use what might prove to have an apparent influence on the outcome. In this way, I could make a logistic regression with software that would be compatible with JSON and set the hyperparameters to control the model's behavior. After doing all of this and using the model on the test sets, I would know how well the model performs, which would hopefully avoid over-fitting or under-fitting. In this way, my predictive modeling would provide insights into features that may be important for predicting NC Justices behavior. 
+
+## Assessing your progress
+
+1. Reflect on the process of identifying a analysis strategy.
+
+Some questions to consider:
+
+- What did you learn?
+
+I learned how to pick through analysis methods to achieve my goal. 
+
+- What did you find most/ least challenging?
+
+This was probably the hardest part of the project so far besides coming up with my research question in the first place. 
+
+- What resources did you consult?
+
+I consulted the textbook for deciding which method to use. 
+
+- What questions or concerns do you have at this point?
+
+I am slightly concerned with feasibility, but I will ask more about this when I present on May 5th. 
+
+- What do you need to address in order to move forward?
+
+I need to address feasibility, but other than that, I have completed my prospectus project. 
+
+1. Consider how your prospectus is shaping up.
+
+- How have your interests evolved?
+
+My interests have evolved from somewhere in the legal linguistics field to judicial behavior. I then narrowed it further to NC specifically, which is very applicable since I live in NC currently. Therefore, knowing legal trends is very helpful.
+
+- How have your research questions and objectives evolved?
+
+I narrowed my research question throughout the last two months, moving away from comparing legal to non-legal texts to focusing on majority opnions of NC justices. 
+
+- How have these changes been influenced by the literature you have reviewed and/ or the knowledge you have gained in this course?
+
+In reading up on predictive models, I realized how much room there is in legal linguistic overlap. It is a very new field with very new applications. I realized I would like to add to current research, which helped me decide the trajectory of my project. 
+
